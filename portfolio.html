@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css"/>
+    <title>Harshavarthan's Portfolio</title>
+</head>
+<body>
+    <div class="top">
+        Harshavarthan's Portfolio
+        <nav style="min-height: auto;">
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+
+    <main>
+        <div class="about">
+            <h2 id="about">About Me</h2>
+                <p>Hello! I'm Harshavarthan, a senior at UT Dallas and this is my portfolio!</p>
+                <!-- comment out image
+                <figure>
+                    <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+                    <figcaption>This is a placeholder image</figcaption>
+                </figure>
+                image not needed -->
+        </div>
+
+        <div class="projects">
+            <h2 id="projects">Projects</h2>
+                <article>
+                    <h3>Build Your Ride (BYR)</h3>
+                    <p>I collaborated with a team to design and develop Build Your Ride (BYR), an interactive 3D car customization platform created for the Toyota track at HackUTD 25. The project was aimed to change vehicle personalization into a real-time, immersive experience by integrating advanced web rendering, data-driven recommendations, and AI-assisted interaction.</p>
+                    <a href="https://github.com/Spikestar05/BYR-BuildYourRide">Github</a>
+                    <ul>
+                        <li>Developed real-time 3D car customization platform using Three.js and Blender assets within Nuxt.js framework, enabling interactive vehicle personalization with optimized rendering performance for Toyota track competition</li>
+                        <li>Engineered MongoDB-powered recommendation engine to match custom builds with Toyota models and implemented finance calculator providing real-time loan/lease payment estimates based on user configurations</li>
+                        <li>Integrated ElevenLabs AI voice assistant for conversational guidance and designed scalable component architecture with seamless frontend-backend data flow using Git-based collaborative workflow</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <h3>CometConnect - Research Opportunity Platform</h3>
+                    <p>I collaborated with a team to design and develop Comet Connect, a full-stack web application aimed at bridging the gap between students and faculty by centralizing research opportunity postings at UT Dallas.</p>
+                    <a href="https://github.com/AbhiramTadepalli/cs3354-group8-project">Github</a>
+                    <ul>
+                        <li>Engineered full-stack web application connecting UT Dallas students with faculty research opportunities, implementing secure RESTful APIs with MySQL for user authentication, profile management, and data persistence </li>
+                        <li>Developed responsive frontend using React hooks for state management, featuring profile management with form validation and transaction management to ensure data integrity across database tables</li>
+                    </ul>
+                </article>
+        </div>
+
+        <div class="contact">
+            <h2 id="contact">Contact Information</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </main>
+
+    <div class ="Skills">
+        <aside>
+            <h2>Skills</h2>
+            <ul>
+                <li>Languages: Java, C++, Python, JavaScript, TypeScript, HTML/CSS, SQL</li>
+                <li>Frameworks & Libraries: Angular, React.js, Node.js, Express.js, Three.js, Nuxt.js, Tailwind CSS</li>
+                <li>Tools & Technologies: Git/GitHub, Docker, Linux, MongoDB, MySQL, CouchDB, ElevenLabs AI, RESTful APIs</li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Harshavarthan</p>
+        <a href="https://github.com/Spikestar05">GitHub</a> |
+        <a href="https://www.linkedin.com/in/harshavarthan-mathapati">LinkedIn</a>
+    </footer>
+
+</body>
+</html>
